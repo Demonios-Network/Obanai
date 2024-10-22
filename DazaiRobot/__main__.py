@@ -76,33 +76,37 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """
-*ʜᴇʏ* {}, 🥀
-*๏ oi oii..* {} !
-➛ KYA RE RNDI K BOT START KREGA ? DHANYWAD AB MAA CHUDA!!
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-❍ *Uptime:* `{}`
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-[➛](https://te.legra.ph/file/d404cdf4b566b9c6630f3.jpg) *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*
+*ʜᴇʏ* {}, 🇮🇳
+
+*──────「 Gᴏᴊᴏ Sᴀᴛᴏʀᴜ  」────── 
+
+㋡ ʜɪ, ɪ'ᴍ Gᴏᴊᴏ Sᴀᴛᴏʀᴜ! ᴛʜᴇ ʙᴏᴛ ᴛʜᴀᴛ's ғᴀsᴛᴇʀ ᴛʜᴀɴ ᴀ sᴘᴇᴇᴅɪɴɢ ʙᴜʟʟᴇᴛ ᴀɴᴅ sᴍᴏᴏᴛʜᴇʀ ᴛʜᴀɴ Jᴀᴢᴢ.
+
+‣ ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs ᴍᴜsɪᴄ? ɴᴏ ᴘʀᴏʙʟᴇᴍ. ᴍᴀɴᴀɢᴇᴍᴇɴᴛ? ᴘɪᴇᴄᴇ ᴏғ ᴄᴀᴋᴇ. ʟᴀɢ? ɴᴏᴛ ᴏɴ ᴍʏ ᴡᴀᴛᴄʜ!
+
+[🫧](https://telegra.ph/file/5406ed880a8089c6add3b.jpg)* ᴘʜᴏᴛᴏ ʟᴏɢᴏ ᴍᴀᴋɪɴɢ ? ᴇᴀsʏ ʟɪᴋᴇ ᴍᴏᴠɪɴɢ ʏᴏᴜʀ ʜᴀɴᴅs. ᴀɪ ᴘᴏᴡᴇʀ ᴄʜᴀᴛɢᴘᴛ ?  ʟɪᴋᴇ ɪ ᴀᴍ ᴅᴏɪɴɢ ɪᴛ ғʀᴏᴍ ᴍʏ ᴄʜɪʟᴅʜᴏᴏᴅ
+
+◉ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ 「 Gᴏᴊᴏ Sᴀᴛᴏʀᴜ 」 ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs+*
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text=f"➕ 𝗔𝗗𝗗 ➕",
+            text=f"✨ Add Gojo To Group ✨",
             url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="⚙ Commands ⚙️", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Mitsuri_Updates"),
+        InlineKeyboardButton(text="🍃 Support 🍃", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🎧 Music 🎧", url=f"https://t.me/GojoMusic_C_mds"),
     ],
 ]
 
 HELP_STRINGS = f"""
-[❃](https://te.legra.ph/file/783567aa6eee30f321713.jpg)* {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
+[❃](https://te.legra.ph/file/4481071e3d119bbf0f54f.jpg)* {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
 
 ➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ.
 ➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
